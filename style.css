@@ -1,6 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
+    background-color: #F5F5F5;
 }
 
 .logo {
@@ -12,6 +13,7 @@ body {
 .user-avatar {
     width: 34px;
     height: 34px;
+    border-radius: 50%;
     background-image: url("images/saurabh-avatar.png");
     background-size: cover;
     background-color: blueviolet;
@@ -24,6 +26,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
+    /* margin-top: 0px; */
     border-bottom: 1px solid #C6C6C6;
     box-sizing: border-box;
     background: #FFFFFF;
@@ -36,6 +39,7 @@ body {
     margin: 0 auto;
     width: 375px;
     height: 545px;
+    background-color: #FFFFFF;
     /* border-top: 1px solid red; */
 }
 
@@ -136,3 +140,6 @@ p {
     border: 1px solid green;
 } */
 
+.dim:hover{
+    opacity: 0.5;
+}
